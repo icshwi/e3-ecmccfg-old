@@ -1,6 +1,6 @@
 #
 EPICS_MODULE_NAME:=ecmccfg
-EPICS_MODULE_TAG:=master
+EPICS_MODULE_TAG:=anders_ecmc_6
 #
 E3_MODULE_VERSION:=develop
 

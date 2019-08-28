@@ -57,10 +57,10 @@ SCRIPTS += $(APPSCRIPTS)/configureVirtualAxis.cmd
 SCRIPTS += $(APPSCRIPTS)/applyAxisSynchronization.cmd
 SCRIPTS += $(APPSCRIPTS)/loadPLCFile.cmd
 
-SCRIPTS += $(wildcard $(APP)/general/*)
-SCRIPTS += $(wildcard $(APP)/hardware/*)
-SCRIPTS += $(wildcard $(APP)/motion/*)
-SCRIPTS += $(wildcard $(APP)/protocol/*)
+SCRIPTS += $(wildcard $(APP)/general/*.cmd)
+SCRIPTS += $(wildcard $(APP)/hardware/*.cmd)
+SCRIPTS += $(wildcard $(APP)/motion/*.cmd)
+SCRIPTS += $(wildcard $(APP)/protocol/*.cmd)
 
 
 SCRIPTS += $(wildcard ../iocsh/*.iocsh)
